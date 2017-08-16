@@ -262,3 +262,41 @@ setnameandage2(user: "박보검")
 setnameandage2(user: "박보검", age: 23)
 
 
+//참조값
+
+func addNum(num1:inout Int , num2:Int){
+    num1 = num1 + num2
+}
+
+var num:Int = 10
+addNum(num1: &num, num2: 5)
+print(num)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
